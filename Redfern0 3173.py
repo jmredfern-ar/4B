@@ -13,8 +13,6 @@ background = pygame.transform.scale(bkgr_image, (WIDTH, HEIGHT))
 background_rect = background.get_rect()
 bkgr_x = 0
 
-
-
 #CREATE SPRITES, ADD TO GROUPS
 '''
 platform = Platform()
@@ -58,3 +56,4 @@ while running:
     pygame.display.flip()
 
 pygame.quit()
+
